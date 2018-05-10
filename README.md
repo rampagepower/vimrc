@@ -1,6 +1,4 @@
 # vimrc for Debian 9 v1.0
-# rampage nps
-# my best vimrc configuration
 
 # Install requirement for Vim 
   apt -y install ncurses-dev libncurses5-dev libncursesw5-dev vim-gtk vim-gnome vim-athena
