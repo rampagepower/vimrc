@@ -3,8 +3,7 @@
 apt install python vim exuberant-ctags git -y && pip install dbgp pep8 flake8 pyflakes isort
 
 # Download vimrc file to user home directory
-
-wget https://github.com/rampagepower/vimrc/blob/master/.vimrc -O $HOME/.vimrc
+git clone https://github.com/rampagepower/vimrc.git && mv vimrc/.vimrc ~/.vimrc && rm -rf vimrc
 
 # Open Vim
 
